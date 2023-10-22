@@ -6,7 +6,7 @@ import CustomButton from './component/CustomButton.js';
 const Main = () => {
   const router = useRouter();
   const [modalVisible, setModalVisible] = useState(false); 
-  const process = ["1. 요리에 사용할 식재료를 준비한다.","2. 시작하기 를 눌러 카메라로 식재료 사진을 찍는다.","3. 일정 시간 기다리면 ChatGPT가 맛있는 요리 레시피를 추천해준다!"]
+  const process = ["1. 요리에 사용할 식재료를 준비한다.","2. 시작하기를 눌러 카메라로 식재료 사진을 찍는다.","3. 일정 시간 기다리면 ChatGPT가 맛있는 요리 레시피를 추천해준다!"]
   return (
       <View style={styles.container}>
         
